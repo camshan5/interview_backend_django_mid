@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b6461fa-166c-49d0-94a0-acbdf2826fc1" name="Changes" comment="IDE Settings files.">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9b6461fa-166c-49d0-94a0-acbdf2826fc1" name="Changes" comment="IDE Settings files." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,11 +30,11 @@
                 <list>
                   <RecentBranch>
                     <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1682009418" />
+                    <option name="lastUsedInstant" value="1682009528" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="challenge-1-inventory-dates" />
-                    <option name="lastUsedInstant" value="1682009338" />
+                    <option name="lastUsedInstant" value="1682009482" />
                   </RecentBranch>
                 </list>
               </option>
@@ -149,7 +147,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1682004874013</updated>
-      <workItem from="1682004875586" duration="4557000" />
+      <workItem from="1682004875586" duration="4873000" />
     </task>
     <task id="LOCAL-00001" summary="added inventory after date list create view">
       <created>1682006853869</created>
