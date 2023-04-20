@@ -1,3 +1,5 @@
+from datetime import datetime
+
 from rest_framework.response import Response
 from rest_framework.request import Request
 from rest_framework.views import APIView
@@ -231,3 +233,38 @@ class InventoryTypeRetrieveUpdateDestroyView(APIView):
 
     def get_queryset(self, **kwargs):
         return self.queryset.get(**kwargs)
+
+
+class InventoryAfterDateListCreateView(APIView):
+    """
+    A view that lists inventory items created after a certain day.
+    """
+
+    queryset = Inventory.objects.all()
+    serializer_class = InventorySerializer
+
+    def get(self, request: Request, *args, **kwargs) -> Response:
+        # Get the date from the query parameters
+        date_str = request.query_params.get("date")
+
+        if date_str is None:
+            return Response({"error": "A valid date is required."}, status=400)
+
+        # Convert datestr to an object
+        try:
+            date_obj = datetime.strptime(date_str, "%Y-%m-%d")
+        except ValueError:
+            return Response(
+                {"error": 'Invalid date format. Use "YYYY-MM-DD".'}, status=400
+            )
+
+        # Filter the queryset based on the date
+        filtered_queryset = self.get_queryset().filter(created_at__gt=date_obj)
+
+        # Serialize and return the filtered queryset
+        serializer = self.serializer_class(filtered_queryset, many=True)
+
+        return Response(serializer.data, status=200)
+
+    def get_queryset(self):
+        return self.queryset.all()
