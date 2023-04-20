@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b6461fa-166c-49d0-94a0-acbdf2826fc1" name="Changes" comment="IDE Settings files." />
+    <list default="true" id="9b6461fa-166c-49d0-94a0-acbdf2826fc1" name="Changes" comment="Added url endpoint for deactivate order view.">
+      <change afterPath="$PROJECT_DIR$/interview/order/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,6 +52,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2OhFOCKwjTL8xPJrfnW6s4OBoVa" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -61,7 +65,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "challenge-2-deactive-order",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -191,7 +195,28 @@
       <option name="project" value="LOCAL" />
       <updated>1682008914454</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Ran black against urls.py for order">
+      <created>1682010761612</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1682010761612</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added deactivate order view">
+      <created>1682011303571</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1682011303571</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Added url endpoint for deactivate order view.">
+      <created>1682011387374</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1682011387374</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,7 +239,10 @@
     <MESSAGE value="updated urls.py to include inventory created after view" />
     <MESSAGE value="Added unit test for inventory after date list create view." />
     <MESSAGE value="IDE Settings files." />
-    <option name="LAST_COMMIT_MESSAGE" value="IDE Settings files." />
+    <MESSAGE value="Ran black against urls.py for order" />
+    <MESSAGE value="Added deactivate order view" />
+    <MESSAGE value="Added url endpoint for deactivate order view." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added url endpoint for deactivate order view." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/interview_backend_django_mid$Test__interview_inventory_tests_InventoryAfterDateListCreateViewTest_test_inventory_after_date_filter.coverage" NAME="Test: interview.inventory.tests.InventoryAfterDateListCreateViewTest.test_inventory_after_date_filter Coverage Results" MODIFIED="1682008620407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
