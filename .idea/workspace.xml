@@ -4,17 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b6461fa-166c-49d0-94a0-acbdf2826fc1" name="Changes" comment="IDE Settings files." />
+    <list default="true" id="9b6461fa-166c-49d0-94a0-acbdf2826fc1" name="Changes" comment="IDE Settings files.">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="challenge-1-inventory-dates" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="MIXED" />
   </component>
   <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
     <option name="recentBranches">
       <RecentBranches>
         <option name="branchesForRepo">
@@ -23,12 +31,12 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="challenge-1-inventory-dates" />
-                    <option name="lastUsedInstant" value="1682005202" />
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1682009418" />
                   </RecentBranch>
                   <RecentBranch>
-                    <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1682005201" />
+                    <option name="branchName" value="challenge-1-inventory-dates" />
+                    <option name="lastUsedInstant" value="1682009338" />
                   </RecentBranch>
                 </list>
               </option>
@@ -55,7 +63,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "challenge-1-inventory-dates",
+    "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -141,7 +149,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1682004874013</updated>
-      <workItem from="1682004875586" duration="4227000" />
+      <workItem from="1682004875586" duration="4557000" />
     </task>
     <task id="LOCAL-00001" summary="added inventory after date list create view">
       <created>1682006853869</created>
